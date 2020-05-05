@@ -31,10 +31,6 @@ contract Checkpoint {
         string cpf;
     }
     
-    constructor() {
-        
-    }
-    
     // key-value **
     mapping (address => Doctor) private doctors;
     
